@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 19/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Starbiya S
+###  ROLL NO :212223040208
+###  DEPARTMENT: Coumputer Science And Engineering 
 
 
 
@@ -86,12 +86,25 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+ while (1)
+  {
+	     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+      HAL_Delay(1000);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+      HAL_Delay(1000);
+  }
+```
 
 
 
 
 
 ## OUTPUT  :
+
+
+![Screenshot 2024-08-19 092545](https://github.com/user-attachments/assets/179ae09d-280b-4843-98fc-ed16fb1762d7)
+
  
  
  
